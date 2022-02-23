@@ -1,0 +1,112 @@
+[
+    [
+        "Origin City",
+        "Origin IATA Code",
+        "Destination City",
+        "Destination IATA Code",
+        "Lowest Price",
+        "Lowest Date",
+        "Actual Price",
+        "Actual Date",
+        "Note"
+    ],
+    [
+        "Berlin",
+        "BER",
+        "Paris",
+        "PAR",
+        "64",
+        "24/02/2022",
+        64,
+        "24/02/2022",
+        " "
+    ],
+    [
+        "Berlin",
+        "BER",
+        "Singapore",
+        "SIN",
+        "478",
+        "24/02/2022",
+        478,
+        "24/02/2022",
+        " "
+    ],
+    [
+        "Berlin",
+        "BER",
+        "Tokyo",
+        "TYO",
+        "485",
+        "15/05/2021",
+        0,
+        "24/02/2022",
+        "Flight not found on 23/02/2022"
+    ],
+    [
+        "Berlin",
+        "BER",
+        "Sydney",
+        "SYD",
+        "551",
+        "15/05/2021",
+        0,
+        "24/02/2022",
+        "Flight not found on 23/02/2022"
+    ],
+    [
+        "Berlin",
+        "BER",
+        "London",
+        "LON",
+        "49",
+        "24/02/2022",
+        49,
+        "24/02/2022",
+        " "
+    ],
+    [
+        "Berlin",
+        "BER",
+        "Bangkok",
+        "BKK",
+        "414",
+        "15/05/2021",
+        0,
+        "24/02/2022",
+        "Flight not found on 23/02/2022"
+    ],
+    [
+        "Berlin",
+        "BER",
+        "New York",
+        "NYC",
+        "542",
+        "24/02/2022",
+        542,
+        "24/02/2022",
+        " "
+    ],
+    [
+        "Berlin",
+        "BER",
+        "San Francisco",
+        "SFO",
+        "260",
+        "15/05/2021",
+        0,
+        "24/02/2022",
+        "Flight not found on 23/02/2022"
+    ],
+    [
+        "Berlin",
+        "BER",
+        "Cape Town",
+        "CPT",
+        "378",
+        "15/05/2021",
+        0,
+        "24/02/2022",
+        "Flight not found on 23/02/2022"
+    ]
+]

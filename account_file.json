@@ -1,0 +1,10 @@
+{
+  "spread_sheet_id": "GOOGLE_SHEET_ID_HERE",
+  "spreadsheet_range": "prices!A1:I10",
+  "sheet_name": "prices",
+  "default_origin_city": "Berlin",
+  "default_origin_IATA_code": "BER",
+  "tq_endpoint": "https://tequila-api.kiwi.com",
+  "tq_api_key": "KIWI_API_KEY_HERE",
+  "discord_webhook_stock": "DISCORD_WEBHOOK_URL_HERE"
+}
