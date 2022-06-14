@@ -4,6 +4,9 @@ from notification_manager import NotificationManager
 
 class Manager:
     def __init__(self):
+        """
+        Managing the Flight Deals Checker procedures
+        """
         # 1) Initialize and retrieve existing data
         self.data_manager = DataManager()
         self.notification_manager = NotificationManager()
@@ -17,15 +20,24 @@ class Manager:
         self.send_notification()
 
     def check_price(self):
+        """
+        Check the current flight prices
+        """
         if not self.data_manager.is_error:
             self.data_manager.check_price()
 
     def update_price(self):
+        """
+        Update all the flight price and save it to the database
+        """
         if not self.data_manager.is_error:
             self.data_manager.update_city_name()
             self.data_manager.update_destination_price()
 
     def send_notification(self):
+        """
+        Send a notification to the end user to inform any new lowest flight price deals
+        """
         if self.data_manager.is_error:
             print("Has error msg")
             for m in self.data_manager.verification_alert:
